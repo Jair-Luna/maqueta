@@ -1,0 +1,28 @@
+.container {
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.animals-card .animals {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-grow: 2;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: space-around;
+}
+
+.animal-img {
+  width: 200px;
+}
+
+button {
+  cursor: pointer;
+  border: 0;
+  position: relative;
+  left: 40%;
+  background-color: #fff;
+}
