@@ -1,28 +1,44 @@
 .container {
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 10px;
+	height: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+}
+
+.title {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-style: oblique;
+	font-size: xx-large;
+	color: #f9943b;
 }
 
 .animals-card .animals {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-grow: 2;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: space-around;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-grow: 2;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: space-around;
 }
 
 .animal-img {
-  width: 200px;
+	width: 200px;
+}
+
+p {
+	color: #f9943b;
+	font-size: 20px;
+	font-weight: 700;
 }
 
 button {
-  cursor: pointer;
-  border: 0;
-  position: relative;
-  left: 40%;
-  background-color: #fff;
+	cursor: pointer;
+	border: 0;
+	position: relative;
+	left: 40%;
+	background-color: #fff;
 }
